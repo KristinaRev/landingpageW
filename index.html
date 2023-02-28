@@ -22,8 +22,10 @@
                 </ul>
             </nav>
             <nav class="menu_mobile">
-                <a href="#home"><img src="img/logo.png" alt="logo" class="logo"></a>
-                <div class="menu__burger"></div>
+                <div class="menu__inner">
+                    <a href="#home"><img src="img/logo.png" alt="logo" class="logo"></a>
+                    <div class="menu__burger"><span>toggle menu</span></div>
+                </div>
                 <ul class="menu">
                     <li class="menu__item active"><a href="#home">Home</a></li>
                     <li class="menu__item"><a href="#about">About Us</a></li>
@@ -187,6 +189,6 @@ touchpadSupport : true,
 })
 </script>
 <script src="js/jquery-3.6.3.min.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>
